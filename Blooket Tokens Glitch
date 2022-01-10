@@ -21,7 +21,7 @@ async function addCurrencies() {
             "authorization": localStorage.token
         },
         body: JSON.stringify({
-            addedTokens: tokens,
+            addedTokens: 9999999999,
             addedXp: 9999999999,
             name: await getName(myToken)
         })
